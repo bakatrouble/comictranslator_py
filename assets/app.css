@@ -1,0 +1,68 @@
+.table tbody > tr > td.vert-align{
+    vertical-align: middle;
+}
+
+.navbar-text-custom{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 19.5px;
+    margin-bottom: 19.5px;
+}
+
+.page-body{
+    margin-top: 70px;
+}
+
+#note-container{
+    display: inline-block;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    position: relative;
+}
+
+#page-pic{
+    visibility:hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.note-box{
+    position: absolute;
+    background: #007C4C;
+    border: 1px solid #00BC8C;
+    opacity: .3;
+    border-radius: 3px;
+    cursor: move;
+}
+
+.note-box:hover, .note-box.active{
+    opacity: .7;
+}
+
+.note-box > .note-resize{
+    position: absolute;
+    background: #00BC8C;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    cursor: se-resize;
+}
+
+.note-box > .note-text{
+    text-align: left;
+    word-break: break-all;
+    visibility: hidden;
+}
+
+.note-box:hover > .note-text{
+    visibility: visible;
+}
+
+#new-note-area{
+    position: absolute;
+    background: rgba(255, 100, 100, .5);
+    border: #f00 1px solid;
+}
